@@ -1,0 +1,39 @@
+p {
+	font-size:0.8em !important
+}
+
+#footerimage{
+	pointer-events: none;
+	display:none
+}
+
+@media only screen and (max-width: 600px) {
+	  #footerimage{
+		  pointer-events: none;
+		 display:block;
+		position:fixed;
+		bottom:0px;
+		left:0px;
+		width:100%;
+		opacity:90%
+	}
+}
+
+
+#ballsimage{
+	position:fixed;
+		top:0px;
+		left:0px;
+		width:17%;
+		opacity:90%
+}
+
+@media only screen and (max-width: 600px) {
+	  #ballsimage{
+		 display:none;
+	}
+}
+
+.imgdivider{
+	width:150px !important
+}
